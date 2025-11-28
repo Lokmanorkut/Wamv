@@ -1,0 +1,9 @@
+/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz/CMakeFiles/uninstall.dir
+/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz/CMakeFiles/wamv_gz_uninstall.dir
+/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz/CMakeFiles/test.dir
+/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz/CMakeFiles/edit_cache.dir
+/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz/CMakeFiles/rebuild_cache.dir
+/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz/CMakeFiles/list_install_components.dir
+/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz/CMakeFiles/install.dir
+/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz/CMakeFiles/install/local.dir
+/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz/CMakeFiles/install/strip.dir

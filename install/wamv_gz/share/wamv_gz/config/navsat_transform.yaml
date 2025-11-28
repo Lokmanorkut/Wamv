@@ -1,0 +1,37 @@
+### NavSat Transform Configuration
+### Converts GPS (lat/lon) to odometry (x/y in meters) using UTM projection
+
+navsat_transform_node:
+  ros__parameters:
+    # Publishing frequency
+    frequency: 30.0
+    
+    # Startup delay to allow sensors to stabilize
+    delay: 3.0
+    
+    # Magnetic declination in radians (adjust for your location)
+    # 0.0 means no magnetic declination correction
+    magnetic_declination_radians: 0.0
+    
+    # Yaw offset in radians
+    yaw_offset: 0.0
+    
+    # Set altitude to zero (for marine surface vehicle)
+    zero_altitude: true
+    
+    # Broadcast UTM transform
+    broadcast_utm_transform: true
+    broadcast_utm_transform_as_parent_frame: false
+    
+    # Publish filtered GPS back out
+    publish_filtered_gps: true
+    
+    # Use odometry yaw instead of IMU yaw
+    use_odometry_yaw: false
+    
+    # Wait for datum (initial GPS position) to be set
+    wait_for_datum: false
+    
+    # Initial datum [latitude, longitude, altitude]
+    # Set to [0.0, 0.0, 0.0] to use first GPS reading as datum
+    datum: [0.0, 0.0, 0.0]

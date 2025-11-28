@@ -1,0 +1,46 @@
+[0.009s] Invoking command in '/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lokman/wamv_ws/src/wamv_gz -DCMAKE_INSTALL_PREFIX=/home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz
+[0.122s] -- The C compiler identification is GNU 13.3.0
+[0.213s] -- The CXX compiler identification is GNU 13.3.0
+[0.232s] -- Detecting C compiler ABI info
+[0.314s] -- Detecting C compiler ABI info - done
+[0.321s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.331s] -- Detecting CXX compiler ABI info
+[0.420s] -- Detecting CXX compiler ABI info - done
+[0.427s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.428s] -- Detecting CXX compile features
+[0.428s] -- Detecting CXX compile features - done
+[0.437s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.600s] -- Found Python3: /usr/local/bin/python3.13 (found version "3.13.5") found components: Interpreter 
+[0.756s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.828s] Error parsing '/home/lokman/wamv_ws/src/wamv_gz/package.xml':
+[0.828s] Traceback (most recent call last):
+[0.829s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.829s]     main()
+[0.829s]     ~~~~^^
+[0.829s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.829s]     raise e
+[0.829s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.829s]     package = parse_package_string(
+[0.829s]         args.package_xml.read(), filename=args.package_xml.name)
+[0.829s]   File "/home/lokman/.local/lib/python3.13/site-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.829s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.830s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/lokman/wamv_ws/src/wamv_gz/package.xml':
+[0.830s] Error(s):
+[0.830s] - The generic dependency on 'robot_localization' is redundant with: exec_depend
+[0.830s] - The generic dependency on 'tf2_ros' is redundant with: exec_depend
+[0.838s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.839s]   execute_process(/usr/local/bin/python3.13
+[0.839s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.839s]   /home/lokman/wamv_ws/src/wamv_gz/package.xml
+[0.839s]   /home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz/ament_cmake_core/package.cmake)
+[0.839s]   returned error code 1
+[0.839s] Call Stack (most recent call first):
+[0.839s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.839s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.839s]   CMakeLists.txt:14 (ament_lint_auto_find_test_dependencies)
+[0.839s] 
+[0.839s] [0m
+[0.839s] -- Configuring incomplete, errors occurred!
+[0.844s] Invoked command in '/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lokman/wamv_ws/src/wamv_gz -DCMAKE_INSTALL_PREFIX=/home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz

@@ -1,0 +1,150 @@
+[0.010s] Invoking command in '/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lokman/wamv_ws/src/wamv_gz -DCMAKE_INSTALL_PREFIX=/home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz
+[0.021s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.184s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.300s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.300s] -- Configured cppcheck include dirs: 
+[0.300s] -- Configured cppcheck exclude dirs and/or files: 
+[0.302s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.302s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.306s] -- Added test 'lint_cmake' to check CMake code style
+[0.308s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.321s] -- Added test 'uncrustify' to check C / C++ code style
+[0.321s] -- Configured uncrustify additional arguments: 
+[0.323s] -- Added test 'xmllint' to check XML markup files
+[0.325s] -- Configuring done (0.3s)
+[0.328s] -- Generating done (0.0s)
+[0.329s] -- Build files have been written to: /home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz
+[0.332s] Invoked command in '/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lokman/wamv_ws/src/wamv_gz -DCMAKE_INSTALL_PREFIX=/home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz
+[0.333s] Invoking command in '/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz -- -j16 -l16
+[0.371s] Invoked command in '/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz -- -j16 -l16
+[0.379s] Invoking command in '/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz
+[0.387s] -- Install configuration: ""
+[0.387s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/launch
+[0.387s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/launch/wamv_launch.py
+[0.387s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/launch/robot_localization.launch.py
+[0.387s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/launch/wamv_localization_launch.py
+[0.388s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models
+[0.388s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/mono_camera
+[0.388s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/mono_camera/model.config
+[0.388s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/mono_camera/meshes
+[0.388s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/mono_camera/meshes/mono_camera.dae
+[0.389s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/mono_camera/model.sdf
+[0.389s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/mono_camera/materials
+[0.389s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/mono_camera/materials/mono_camera_Normal.png
+[0.390s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/mono_camera/materials/mono_camera_Roughness.png
+[0.390s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/mono_camera/materials/mono_camera_Albedo.png
+[0.391s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/mono_camera/materials/mono_camera.png
+[0.392s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/mono_camera/materials/mono_camera_Metalness.png
+[0.393s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/battery
+[0.393s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/battery/model.config
+[0.393s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/battery/meshes
+[0.393s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/battery/meshes/battery.dae
+[0.394s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/battery/model.sdf
+[0.394s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/battery/materials
+[0.394s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/battery/materials/battery_Albedo.png
+[0.401s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/battery/materials/battery_Roughness.png
+[0.405s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/battery/materials/battery.png
+[0.412s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/battery/materials/battery_Metalness.png
+[0.413s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/battery/materials/battery_Normal.png
+[0.419s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/sensor_post
+[0.420s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/sensor_post/model.config
+[0.420s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/sensor_post/meshes
+[0.420s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/sensor_post/meshes/sensor_post_arm.dae
+[0.420s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/sensor_post/meshes/sensor_post.dae
+[0.420s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/sensor_post/model.sdf
+[0.421s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/sensor_post/materials
+[0.421s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/sensor_post/materials/sensor_post.png
+[0.422s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/cpu_cases
+[0.422s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/cpu_cases/model.config
+[0.422s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/cpu_cases/meshes
+[0.422s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/cpu_cases/meshes/cpu_cases.dae
+[0.423s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/cpu_cases/model.sdf
+[0.424s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/cpu_cases/materials
+[0.424s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/cpu_cases/materials/cpu_cases_Albedo.png
+[0.430s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/cpu_cases/materials/cpu_cases.png
+[0.438s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/cpu_cases/materials/cpu_cases_Metalness.png
+[0.438s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/cpu_cases/materials/cpu_cases_Roughness.png
+[0.442s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/cpu_cases/materials/cpu_cases_Normal.png
+[0.449s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves
+[0.449s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/model.config
+[0.449s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/thumbnails
+[0.449s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/thumbnails/1.png
+[0.450s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/meshes
+[0.450s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/meshes/waterlow.dae
+[0.469s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/model.sdf
+[0.469s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/materials
+[0.469s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/materials/textures
+[0.469s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/materials/textures/wave_normals.dds
+[0.470s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/materials/textures/skybox_lowres.dds
+[0.472s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/materials/programs
+[0.472s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/materials/programs/GerstnerWaves_fs_330.glsl
+[0.472s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/materials/programs/GerstnerWaves_fs.metal
+[0.472s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/materials/programs/GerstnerWaves_vs_330.glsl
+[0.473s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/coast_waves/materials/programs/GerstnerWaves_vs.metal
+[0.473s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/gps
+[0.473s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/gps/model.config
+[0.473s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/gps/meshes
+[0.473s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/gps/meshes/gps.dae
+[0.474s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/gps/materials
+[0.474s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/gps/materials/gps.png
+[0.475s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/3d_lidar
+[0.475s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/3d_lidar/model.config
+[0.475s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/3d_lidar/meshes
+[0.475s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/3d_lidar/meshes/3d_lidar.dae
+[0.476s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/3d_lidar/model.sdf
+[0.476s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/3d_lidar/materials
+[0.476s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/3d_lidar/materials/3d_Lidar_Roughness.png
+[0.477s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/3d_lidar/materials/3d_Lidar_Albedo.png
+[0.478s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/3d_lidar/materials/3d_lidar.png
+[0.479s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/3d_lidar/materials/3d_Lidar_Normal.png
+[0.480s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/3d_lidar/materials/3d_Lidar_Metalness.png
+[0.480s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/wamv
+[0.480s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/wamv/model.config
+[0.480s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/wamv/wamv.sdf
+[0.481s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/wamv/meshes
+[0.481s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/wamv/meshes/propeller.dae
+[0.481s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/wamv/meshes/WAMV.dae
+[0.483s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/wamv/meshes/engine.dae
+[0.483s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/wamv/materials
+[0.484s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/wamv/materials/WAM-V_Albedo.png
+[0.493s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/wamv/materials/WAM-V_Normal.png
+[0.500s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/wamv/materials/WAM-V_Roughness.png
+[0.505s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/wamv/materials/WAM-V_Metalness.png
+[0.506s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/wamv/materials/WamV.png
+[0.510s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/seabed
+[0.510s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/seabed/model.config
+[0.510s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/models/seabed/model.sdf
+[0.510s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/worlds
+[0.510s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/worlds/wamv_world.sdf
+[0.511s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/config
+[0.511s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/config/ekf.yaml
+[0.511s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/config/nav2_params.yaml
+[0.511s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/config/navsat_transform.yaml
+[0.511s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/config/wamv_localization.rviz
+[0.512s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/config/robot_localization_config.yaml
+[0.512s] -- Up-to-date: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz//config
+[0.512s] -- Up-to-date: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz//config/ekf.yaml
+[0.512s] -- Up-to-date: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz//config/nav2_params.yaml
+[0.512s] -- Up-to-date: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz//config/navsat_transform.yaml
+[0.512s] -- Up-to-date: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz//config/wamv_localization.rviz
+[0.513s] -- Up-to-date: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz//config/robot_localization_config.yaml
+[0.513s] -- Up-to-date: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz//launch
+[0.513s] -- Up-to-date: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz//launch/wamv_launch.py
+[0.513s] -- Up-to-date: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz//launch/robot_localization.launch.py
+[0.513s] -- Up-to-date: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz//launch/wamv_localization_launch.py
+[0.513s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/ament_index/resource_index/package_run_dependencies/wamv_gz
+[0.513s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/ament_index/resource_index/parent_prefix_path/wamv_gz
+[0.514s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/environment/ament_prefix_path.sh
+[0.514s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/environment/ament_prefix_path.dsv
+[0.514s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/environment/path.sh
+[0.514s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/environment/path.dsv
+[0.514s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/local_setup.bash
+[0.514s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/local_setup.sh
+[0.514s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/local_setup.zsh
+[0.515s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/local_setup.dsv
+[0.515s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/package.dsv
+[0.515s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/ament_index/resource_index/packages/wamv_gz
+[0.515s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/cmake/wamv_gzConfig.cmake
+[0.515s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/cmake/wamv_gzConfig-version.cmake
+[0.515s] -- Installing: /home/lokman/wamv_ws/src/wamv_gz/install/wamv_gz/share/wamv_gz/package.xml
+[0.518s] Invoked command in '/home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lokman/wamv_ws/src/wamv_gz/build/wamv_gz
