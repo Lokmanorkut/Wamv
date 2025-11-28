@@ -1,0 +1,42 @@
+ekf_filter_node:
+  ros__parameters:
+	frequency: 30
+	sensor_timeout: 0.1
+	two_d_mode: false
+
+	publish_tf: true
+	publish_acceleration: true
+
+	map_frame: map
+	odom_frame: odom
+	base_link_frame: wamv/base_link
+	world_frame: odom
+
+	odom0: /odom                # Gerekirse boş bırak
+	odom0_config: [false, false, false,
+		       false, false, false,
+		       false, false, false,
+		       false, false, false,
+		       false, false, false]
+
+	imu0: /wamv/sensors/imu/imu/data
+	imu0_config: [false, false, false,
+		      true, true, true,
+		      false, false, false,
+		      false, false, false,
+		      false, false, false]
+	imu0_differential: false
+	imu0_remove_gravitational_acceleration: true
+
+	gps0: /gps/filtered
+	gps0_config: [true,  true,  true,
+		      false, false, false,
+		      false, false, false,
+		      false, false, false,
+		      false, false, false]
+
+    odom0_queue_size: 5
+
+    # Process noise defaults
+    use_control: false
+

@@ -1,0 +1,32 @@
+navsat_transform_node:
+  ros__parameters:
+    frequency: 30
+    delay: 0.0
+    magnetic_declination_radians: 0.0
+    yaw_offset: 0.0
+    zero_altitude: true
+    publish_filtered_gps: true
+    base_link_frame: wamv/base_link
+    imu_frame: wamv/sensors/imu
+    gps_frame: wamv/sensors/gps
+    odom_frame: odom
+    world_frame: map
+
+    # Frames
+    base_link_frame: "wamv/base_link"
+    odom_frame: "odom"
+    world_frame: "map"
+    publish_filtered_gps: true
+
+    # Topics
+    gps_topic: "/wamv/sensors/gps/gps/fix"
+    imu_topic: "/wamv/sensors/imu/imu/data"
+
+    # Other settings
+    broadcast_utm_transform: false
+    use_odometry: false
+    magnetic_declination_radians: 0.0
+    yaw_offset: 0.0
+    zero_altitude: true
+    transform_time_offset: 0.0
+
